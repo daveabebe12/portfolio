@@ -1,0 +1,312 @@
+/* PAGE HERO */
+.pageHero {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem 3.5rem;
+  text-align: center;
+}
+
+.pageTitle {
+  font-size: clamp(2.4rem, 5vw, 3.5rem);
+  font-weight: 700;
+  color: var(--accent-blue-light);
+  margin-bottom: 1rem;
+}
+
+.pageSubtitle {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+.pageIntro {
+  max-width: 80ch;
+  margin: 0 auto;
+  color: var(--text-primary);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* TECHNICAL EXPERTISE */
+.expertiseSection {
+  max-width: 1200px;
+  margin: 2rem auto 3rem;
+  padding: 0 1.5rem;
+}
+
+.expertiseInner {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+  align-items: start;
+}
+
+.sectionHeading {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+}
+
+/* SKILL BARS */
+.skillItem {
+  margin-bottom: 1.6rem;
+}
+
+.skillHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.skillName {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.skillPct {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.skillBar {
+  height: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.skillFill {
+  height: 100%;
+  border-radius: 99px;
+  background: linear-gradient(90deg, #22d3ee, #3b82f6, #8b5cf6);
+  transition: width 1s ease;
+}
+
+/* EXPERIENCE TEXT */
+.experienceHeading {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1.25rem;
+}
+
+.experienceCol p {
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+  font-size: 0.97rem;
+  line-height: 1.8;
+}
+
+/* PROFESSIONAL JOURNEY */
+.journeySection {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.journeyTitle {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1.75rem;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.timelineCard {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.75rem 2rem;
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.timelineCard:hover {
+  transform: translateY(-3px);
+  border-color: rgba(96, 165, 250, 0.35);
+}
+
+.timelineYear {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--accent-blue-light);
+  min-width: 4.5rem;
+  flex-shrink: 0;
+}
+
+.timelineContent h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.3rem;
+}
+
+.timelineCompany {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.timelineDesc {
+  color: #7a8ba3;
+  font-size: 0.95rem;
+}
+
+/* BEYOND CODING */
+.beyondSection {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.beyondInner {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2.5rem;
+}
+
+.beyondTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.beyondSubtitle {
+  color: #7a8ba3;
+  font-size: 0.97rem;
+  margin-bottom: 2rem;
+}
+
+.beyondGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.beyondCard {
+  background: var(--bg-card-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.75rem 1.5rem;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.beyondCard:hover {
+  transform: translateY(-3px);
+  border-color: rgba(96, 165, 250, 0.35);
+}
+
+.beyondCard i {
+  font-size: 1.6rem;
+  color: var(--accent-blue-light);
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.beyondCard h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.beyondCard p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* CTA */
+.ctaSection {
+  max-width: 1200px;
+  margin: 3rem auto 4rem;
+  background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+  border-radius: var(--radius);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.ctaSection h2 {
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.ctaSection p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  max-width: 55ch;
+  margin: 0 auto 2rem;
+  line-height: 1.7;
+}
+
+.btnCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(5, 10, 24, 0.75);
+  color: var(--accent-blue-light);
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.9rem 2rem;
+  border-radius: 10px;
+  border: 1px solid rgba(96, 165, 250, 0.3);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.btnCta:hover {
+  background: rgba(5, 10, 24, 0.9);
+  transform: translateY(-2px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 960px) {
+  .expertiseInner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .beyondGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .pageHero {
+    padding: 3rem 1.5rem 2rem;
+  }
+
+  .expertiseInner {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .beyondGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .timelineCard {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .ctaSection {
+    padding: 3rem 1.25rem;
+  }
+}

@@ -1,15 +1,20 @@
 import { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 import styles from './header.module.css'
-import logo from "./logo.png"
+import logo from './images/logo.png'
+
 function Header() {
   const [isOpen, setIsOpen] = useState(false)
+
+  const navLinkClass = ({ isActive }) =>
+    `${styles.navLink} ${isActive ? styles.active : ''}`
 
   return (
     <header className={styles.siteHeader}>
       <nav className={styles.navContainer} aria-label="Primary">
-        <a href="/" className={styles.logo} aria-label="Home">
+        <NavLink to="/" className={styles.logo} aria-label="Home">
           <img src={logo} alt="Logo" />
-        </a>
+        </NavLink>
 
         <button
           className={styles.navToggle}
@@ -23,11 +28,12 @@ function Header() {
         </button>
 
         <ul className={`${styles.navList} ${isOpen ? styles.open : ''}`}>
-          <li><a href="/" className={`${styles.navLink} ${styles.active}`}>HOME</a></li>
-          <li><a href="/about" className={styles.navLink}>ABOUT</a></li>
-          <li><a href="/portfolio" className={styles.navLink}>PORTFOLIO</a></li>
-          <li><a href="/contact" className={styles.navLink}>CONTACT</a></li>
-          <li><a href="/blog" className={styles.navLink}>BLOG</a></li>
+          <li><NavLink to="/" className={navLinkClass} end>HOME</NavLink></li>
+          <li><NavLink to="/about" className={navLinkClass}>ABOUT</NavLink></li>
+          <li><NavLink to="/portfolio" className={navLinkClass}>PORTFOLIO</NavLink></li>
+          <li><NavLink to="/contact" className={navLinkClass}>CONTACT</NavLink></li>
+          <li><NavLink to="/blog" className={navLinkClass}>BLOG</NavLink></li>
+          <li><NavLink to="/certificates" className={navLinkClass}>CERTIFICATES</NavLink></li>
         </ul>
       </nav>
     </header>

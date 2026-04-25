@@ -1,5 +1,5 @@
 import styles from './main.module.css'
-import heroImg from './hero.jpg'
+import heroImg from './images/hero.jpg'
 
 function Main() {
   return (
@@ -9,7 +9,7 @@ function Main() {
         <div className={styles.heroText}>
           <h1 className={styles.heroTitle}>
             Dawit Abebe - Frontend{' '}
-            <span className="underline">Developer</span> &amp; Designer
+            <span className="underline">Developer</span> &amp; Ui/Ux Designer
           </h1>
           <h2 className={styles.heroSubtitle}>Building Engaging and High-Performance Web Experiences</h2>
           <p>
@@ -59,7 +59,7 @@ function Main() {
           <article className={styles.expertiseCard}>
             <i className="fa-solid fa-code"></i>
             <h3>Modern Frontend</h3>
-            <p>React, Next.js, Vite, TypeScript, and modern JavaScript practices</p>
+            <p>React, Next.js, Vite, TypeScript, Figma, Adobe Photoshop, Adobe Illustrator and modern JavaScript practices</p>
           </article>
           <article className={styles.expertiseCard}>
             <i className="fa-solid fa-laptop"></i>
@@ -83,8 +83,8 @@ function Main() {
       <section className={styles.aboutSection}>
         <h2 className="section-title underlined">About Me</h2>
         <p>
-          I specialize in modern frontend technologies, including React, Next.js, and
-          Vite. My passion lies in creating seamless user experiences, optimizing web
+          I specialize in modern frontend technologies, including React, Next.js, Vite and
+          Figma. My passion lies in creating seamless user experiences, optimizing web
           performance, and pushing the boundaries of design and development.
         </p>
         <a href="/about" className="text-link">Learn More About Me &rarr;</a>

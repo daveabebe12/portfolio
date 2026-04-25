@@ -13,12 +13,12 @@ function Footer() {
           <p>Building exceptional digital experiences with modern web technologies.</p>
           <ul className={styles.socialLinks}>
             <li>
-              <a href="https://www.x.com" aria-label="X Profile" target="_blank" rel="noopener">
+              <a href="https://x.com/abebe_dawit12" aria-label="X Profile" target="_blank" rel="noopener">
                 <i className="fa-brands fa-x-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com" aria-label="Instagram Profile" target="_blank" rel="noopener">
+              <a href="https://www.instagram.com/dawit_abebe2/" aria-label="Instagram Profile" target="_blank" rel="noopener">
                 <i className="fa-brands fa-instagram"></i>
               </a>
             </li>
@@ -28,12 +28,12 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com" aria-label="LinkedIn Profile" target="_blank" rel="noopener">
+              <a href="https://www.linkedin.com/in/dawit-abebe-arficho/" aria-label="LinkedIn Profile" target="_blank" rel="noopener">
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
             </li>
             <li>
-              <a href="mailto:davidaddis4939@gmail.com" aria-label="Email Contact">
+              <a href="mailto:davo12ab@gmail.com" aria-label="Email Contact">
                 <i className="fa-solid fa-envelope"></i>
               </a>
             </li>
