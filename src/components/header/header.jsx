@@ -31,9 +31,9 @@ function Header() {
           <li><NavLink to="/" className={navLinkClass} end>HOME</NavLink></li>
           <li><NavLink to="/about" className={navLinkClass}>ABOUT</NavLink></li>
           <li><NavLink to="/portfolio" className={navLinkClass}>PORTFOLIO</NavLink></li>
+          <li><NavLink to="/certificates" className={navLinkClass}>CERTIFICATES</NavLink></li>
           <li><NavLink to="/contact" className={navLinkClass}>CONTACT</NavLink></li>
           <li><NavLink to="/blog" className={navLinkClass}>BLOG</NavLink></li>
-          <li><NavLink to="/certificates" className={navLinkClass}>CERTIFICATES</NavLink></li>
         </ul>
       </nav>
     </header>
