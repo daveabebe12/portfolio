@@ -35,7 +35,7 @@ const contactInfo = [
   {
     icon: 'fa-brands fa-linkedin-in',
     label: 'LinkedIn',
-    value: 'linkedin.com/in/dawit-abebe',
+    value: 'linkedin.com/in/dawit-abebe-arficho',
     href: 'https://www.linkedin.com/in/dawit-abebe-arficho/',
   },
 ]
